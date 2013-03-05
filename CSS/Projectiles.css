@@ -1,0 +1,40 @@
+/* 
+    Document   : Projectiles
+    Created on : Oct 6, 2011, 3:37:21 PM
+    Author     : Patrick
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+img
+{
+    transform: rotate(30deg);
+}
+
+.HoverButton
+{
+    font-family: Superfly;
+    font-size: xx-large;
+    font-weight: normal;
+    line-height: normal;
+    background-color: #FFCC66;
+    overflow: auto;
+    position:absolute;
+    z-index: 1;
+}
+          
+.Projectile
+{
+    transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+}
+

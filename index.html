@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>  
+  <head>  
+    <title>My Way To You</title>  
+      <style>  
+          canvas{  
+            outline:0;  
+            border:1px solid #000;
+            z-index: 5;
+            -webkit-tap-highlight-color: transparent;
+          }
+      </style> 
+      <link rel="stylesheet" type="text/css" href="CSS/Projectiles.css" />
+      <script type="text/javascript" src="JavaScript/Objects/Player.js"></script>
+      <script type="text/javascript" src="JavaScript/Objects/Platform.js"></script>
+      <script type="text/javascript" src="JavaScript/Objects/Projectile.js"></script>
+      <script type="text/javascript" src="JavaScript/Levels.js"></script>
+      <script type="text/javascript" src="JavaScript/Counters/GradeCounter.js" ></script>
+      <script type="text/javascript" src="JavaScript/Intro.js"></script>
+      <script type="text/javascript" src="JavaScript/Menus.js"></script>
+      <script type="text/javascript" src="JavaScript/AudioEngine.js"></script>
+      <script type="text/javascript" src="JavaScript/Objects/Enemies.js"></script>
+      <script type="text/javascript" src="JavaScript/Libraries/MathHelpers.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=0.2, user-scalable=no"/>
+  </head>  
+  <body onload="onLoad()">
+    <div id="container">
+        <canvas id='c' >Sorry, your browser should be in a retirement home</canvas>
+    </div>
+    <script type="text/javascript" src="JavaScript/Engine.js"></script>
+    <script type="text/javascript">
+               
+        Init(800, 480, 60, false, 1);
+
+    </script>
+  </body>  
+</html> 

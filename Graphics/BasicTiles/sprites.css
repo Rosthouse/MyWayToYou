@@ -1,0 +1,24 @@
+.MegaMan{top:0px;left:0px;
+width:50px;height:39px;background: url("sprites.png") no-repeat -0px -594px;}
+.buggy1{top:0px;left:0px;
+width:205px;height:245px;background: url("sprites.png") no-repeat -279px -388px;}
+.buggy2{top:0px;left:0px;
+width:200px;height:250px;background: url("sprites.png") no-repeat -484px -388px;}
+.enemy{top:0px;left:0px;
+width:24px;height:31px;background: url("sprites.png") no-repeat -50px -594px;}
+.floorTile{top:0px;left:0px;
+width:30px;height:42px;background: url("sprites.png") no-repeat -113px -633px;}
+.hand{top:0px;left:0px;
+width:68px;height:50px;background: url("sprites.png") no-repeat -0px -633px;}
+.head_pissedoff{top:0px;left:0px;
+width:45px;height:45px;background: url("sprites.png") no-repeat -68px -633px;}
+.megamanshot{top:0px;left:0px;
+width:6px;height:4px;background: url("sprites.png") no-repeat -50px -625px;}
+.sand1{top:0px;left:0px;
+width:279px;height:206px;background: url("sprites.png") no-repeat -0px -388px;}
+.sand2{top:0px;left:0px;
+width:336px;height:151px;background: url("sprites.png") no-repeat -0px -237px;}
+.sand3{top:0px;left:0px;
+width:205px;height:151px;background: url("sprites.png") no-repeat -336px -237px;}
+.sandkasten{top:0px;left:0px;
+width:532px;height:237px;background: url("sprites.png") no-repeat -0px -0px;}

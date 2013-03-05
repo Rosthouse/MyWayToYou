@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<title>Canvas Test</title>
+
+        <script type="text/javascript" src="Engine/js/Config.js"></script>
+        <script type="text/javascript" src="Engine/js/Bootstrap.js"></script>
+
+        <script type="text/javascript">
+
+	        var GameFiles =
+	        [
+				"Game/js/TestEntity.js",
+		        "Game/js/Game.js",
+				"Game/js/KeyBindings.js"
+
+	        ]
+
+            Bootstrap( GameFiles );
+        </script>
+
+        <style type="text/css">
+          BODY
+          {
+              margin: 0;
+              padding: 0;
+              overflow:  hidden;
+              text-align: center;
+              background-color: black;
+          }
+        </style>
+        
+    </head>
+
+	<body>
+
+    <canvas id="EngineCanvas">Sorry, looks like your browser doesn't support canvas!</canvas>
+
+	</body>
+
+</html>
