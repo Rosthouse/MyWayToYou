@@ -1,7 +1,9 @@
 MyWayToYou
 ==========
 
-This is a javascript game engine that I made to explore the possibilities and limitations of HTML5
+This is a javascript game engine that I made to explore the possibilities and limitations of HTML5.
+
+For this engine, no external javascript libraries were used (Not even jQuery).
 
 Installation
 ------------
